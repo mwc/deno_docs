@@ -1,4 +1,3 @@
-# Examples
+# 示例
 
-In this chapter you can find some example programs that you can use to learn
-more about the runtime.
+本章预备了诸多示例供您摹练。
