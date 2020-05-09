@@ -1,20 +1,21 @@
-## Import maps
+## Import 映射
 
-> This is an unstable feature. Learn more about
-> [unstable features](../../runtime/unstable).
+> 此特性尚不稳定（unstable）。
+>
+> 了解更多 [不稳定特性](../../runtime/unstable)。
 
-Deno supports [import maps](https://github.com/WICG/import-maps).
+Deno 支持 [import 映射](https://github.com/WICG/import-maps)。
 
-You can use import map with the `--importmap=<FILE>` CLI flag.
+import 映射须用 `--importmap=<FILE>` CLI 选项开启。
 
-Current limitations:
+目前限制：
 
-- single import map
-- no fallback URLs
-- Deno does not support `std:` namespace
-- supports only `file:`, `http:` and `https:` schemes
+- import 映射一一对应
+- 尚未支持多 URL 兜底备用
+- Deno 不支持 `std:` 命名空间
+- 仅支持 `file:`, `http:` and `https:` 协议
 
-Example:
+示例:
 
 ```js
 // import_map.json
